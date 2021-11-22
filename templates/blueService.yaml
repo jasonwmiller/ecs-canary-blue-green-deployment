@@ -4,7 +4,7 @@ Description: This template creates an ECS service, which creates a static web-pa
 Parameters:
   DesiredCount:
     Type: Number
-    Default: 1
+    Default: 2
 
   TargetGroup:
     Type: String
