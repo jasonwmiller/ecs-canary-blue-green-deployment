@@ -118,10 +118,10 @@ Outputs:
     Description: The DNS name of the Route53 domain handling the blue-green service
     Value: !GetAtt Route53.Outputs.DNS
   BlueLoadBalancerUrl:
-    Description: The URL of the LB handling the blue service
+    Description: The URL of the the loadbalancer handling the blue service
     Value: !GetAtt LoadBalancer.Outputs.ServiceUrl
   GreenLoadBalancerUrl:
-    Description: The URL of the LB handling the green service
+    Description: The URL of the the loadbalancer handling the green service
     Value: !GetAtt NewLB.Outputs.ServiceUrl
   ClusterName:
     Description: The ECS cluster name
